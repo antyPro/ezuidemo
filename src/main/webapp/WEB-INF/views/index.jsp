@@ -25,6 +25,9 @@
 </head>
 <script type="text/javascript">
 
+	
+
+
 function addPlayer(){
 
 	$('#dlg').dialog('open').dialog('setTitle','New Player');
@@ -95,6 +98,7 @@ function saveUser(){
 
 
 <div>
+<input id="text" value="22" />
 <table id="dg" title="My Users" class="easyui-datagrid" style="width:550px;height:250px"
 		url="get.do"
 		toolbar="#toolbar"
@@ -141,7 +145,10 @@ function saveUser(){
 	<a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveUser()">Save</a>
 	<a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">Cancel</a>
 </div>
+<script type="text/javascript">
 
+
+</script>
 
 
 
